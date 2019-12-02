@@ -1,9 +1,9 @@
 {
-  "name": "autokey",
+  "name": "termgen",
   "version": "1.0.0",
   "description": "Autocomplete API in JavaScript",
-  "main": "build/autokey.js",
-  "repository": "https://github.com/jnafolayan/autokey",
+  "main": "build/termgen.js",
+  "repository": "https://github.com/jnafolayan/termgen",
   "author": "John Afolayan <jnafolayan@gmail.com>",
   "license": "GPL-3.0",
   "private": false,

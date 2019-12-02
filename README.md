@@ -1,19 +1,19 @@
-# Autokey
+# Termgen
 An implementation of an autocompletion library in JavaScript
 
 # Usage
 You can install the packing using NPM
 ```bash
-npm install autokey --save
+npm install termgen --save
 ```
 or Yarn
 ```bash
-yarn add autokey
+yarn add termgen
 ```
 
 # Example
 ```javascript
-import { Agent } from "autokey";
+import { Agent } from "termgen";
 
 const agent = new Agent();
 
