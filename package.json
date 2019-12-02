@@ -1,10 +1,20 @@
 {
   "name": "autokey",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Autocomplete API in JavaScript",
   "main": "index.js",
   "repository": "https://github.com/jnafolayan/autokey",
   "author": "John Afolayan <jnafolayan@gmail.com>",
-  "license": "GNU Public License 3",
-  "private": false
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+  	"build": "babel src -d build",
+  	"test": "echo NO_TESTS_YET",
+  	"build:watch": "babel src -d build -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1"
+  }
 }
