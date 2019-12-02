@@ -2,12 +2,13 @@
   "name": "autokey",
   "version": "1.0.0",
   "description": "Autocomplete API in JavaScript",
-  "main": "index.js",
+  "main": "build/autokey.js",
   "repository": "https://github.com/jnafolayan/autokey",
   "author": "John Afolayan <jnafolayan@gmail.com>",
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
+    "postinstall": "npm run build",
   	"build": "babel src -d build",
   	"test": "echo NO_TESTS_YET",
   	"build:watch": "babel src -d build -w"
