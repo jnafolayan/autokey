@@ -1,0 +1,10 @@
+{
+  "name": "autokey",
+  "version": "0.1.0",
+  "description": "Autocomplete API in JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/jnafolayan/autokey",
+  "author": "John Afolayan <jnafolayan@gmail.com>",
+  "license": "GNU Public License 3",
+  "private": false
+}
