@@ -1,6 +1,6 @@
 {
   "name": "termgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Autocomplete API in JavaScript",
   "main": "build/termgen.js",
   "repository": "https://github.com/jnafolayan/termgen",
@@ -9,11 +9,11 @@
   "private": false,
   "scripts": {
     "postinstall": "npm run build",
-  	"build": "babel src -d build",
+  	"build": "./node_modules/.bin/babel src -d build",
   	"test": "echo NO_TESTS_YET",
-  	"build:watch": "babel src -d build -w"
+  	"build:watch": "./node_modules/.bin/babel src -d build -w"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1"
