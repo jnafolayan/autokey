@@ -42,10 +42,20 @@ export default class Trie {
     this.root = new Node("", null);
   }
 
+  /**
+   * Insert a new node into the trie
+   * @param {string} key
+   * @param {any} data
+   */
   insert(key, data) {
     this.root.insert(key, data);
   }
 
+  /**
+   * Search for nodes that are possible completetions for key
+   * @param {string} key
+   * @returns {object[]}
+   */
   search(key) {
     const result = [];
     this.root.children.forEach(child => child.search(key, result));
